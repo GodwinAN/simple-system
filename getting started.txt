@@ -1,0 +1,1 @@
+Need to write a simple algorithm that outputs odd numbers
