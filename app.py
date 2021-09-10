@@ -8,4 +8,4 @@ def oddoreven(num):
     else:
         print("{0} is Odd".format(num))
         pass
-oddoreven(int(input()))
+oddoreven(16)
