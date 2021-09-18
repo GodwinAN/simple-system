@@ -1,11 +1,15 @@
-# Python program to check if the input number is odd or even.
-# A number is even if division by 2 gives a remainder of 0.
-# If the remainder is 1, it is an odd number.
+from fastapi import FastAPI
+import uvicorn
 
-def oddoreven(num):
-    if (num % 2) == 0:
-        return("{0} is Even".format(num))
-    else:
-        return("{0} is Odd".format(num))
-        pass
-oddoreven()
+app = FastAPI()
+
+@app.get("/oddoreven/{num}")
+def oddoreven(num: int):
+            if (num % 2) == 0:
+                return{"{0}".format(num): "is Even"}
+            else:
+                return{"{0}".format(num): "is Odd"}
+                
+                
+if __name__ == '__main__':
+    uvicorn.run(app, port=8080, host='0.0.0.0')
