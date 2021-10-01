@@ -8,8 +8,8 @@ app = FastAPI()
 def oddoreven(num: int):
     """This code returns odd or even"""
     if (num % 2) == 0:
-        return{"{0}".format(num): "is Even"}
-    return{"{0}".format(num): "is Odd"}
+        return f"{num} is Even"
+    return f"{num} is Odd"
 
 
 if __name__ == '__main__':
