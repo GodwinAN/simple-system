@@ -4,7 +4,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_oddoreven.py
+	#python -m pytest -vv test_oddoreven.py
 
 format:
 	black *.py
