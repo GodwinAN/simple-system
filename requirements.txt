@@ -4,8 +4,5 @@ click
 black
 pytest-cov
 fastapi
-<<<<<<< HEAD
+typing
 uvicorn
-=======
-uvicorn
->>>>>>> a3ca4a93739ba2fd49c3f5c22b7120df4f983784
