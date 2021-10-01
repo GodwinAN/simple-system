@@ -1,3 +1,4 @@
+"""This code returns odd or even"""
 from fastapi import FastAPI
 import uvicorn
 
@@ -8,8 +9,7 @@ def oddoreven(num: int):
     """This code returns odd or even"""
     if (num % 2) == 0:
         return{"{0}".format(num): "is Even"}
-    else:
-        return{"{0}".format(num): "is Odd"}
+    return{"{0}".format(num): "is Odd"}
 
 
 if __name__ == '__main__':
