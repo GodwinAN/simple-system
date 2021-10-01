@@ -1,14 +1,11 @@
-from typing import Optional
 from fastapi import FastAPI
 import uvicorn
 
 app = FastAPI()
-
+"""This code returns odd or even"""
 @app.get("/oddoreven/{num}")
 def oddoreven(num: int):
-    """
-    function to return even or odd
-    """
+    """This code returns odd or even"""
     if (num % 2) == 0:
         return{"{0}".format(num): "is Even"}
     else:
