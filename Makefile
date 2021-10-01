@@ -6,7 +6,7 @@ format:
 	black *.py
 	
 lint:
-	pylint --disable=R.C oddoreven.py
+	pylint --disable=R.C main.py
 	
 test:
 	python -m pytest -vv --cov=oddoreven test_oddoreven.py -s
