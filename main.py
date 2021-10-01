@@ -4,13 +4,12 @@ import uvicorn
 
 app = FastAPI()
 
-
 @app.get("/oddoreven/{num}")
 def oddoreven(num: int):
             if (num % 2) == 0:
-                return{"{0}".format(num): "is Even"}
+                        return{"{0}".format(num): "is Even"}
             else:
-                return{"{0}".format(num): "is Odd"}
+                        return{"{0}".format(num): "is Odd"}
 
 
 if __name__ == '__main__':
