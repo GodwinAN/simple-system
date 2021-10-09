@@ -12,8 +12,8 @@ async def root():
 def oddoreven(num: int):
     """This code returns odd or even"""
     if (num % 2) == 0:
-        return {num "is Even"}
-    return {num "is Odd"}
+        return {num : "is Even"}
+    return {num : "is Odd"}
 
 
 if __name__ == '__main__':
