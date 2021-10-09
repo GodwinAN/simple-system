@@ -4,6 +4,10 @@ import uvicorn
 
 app = FastAPI()
 """This code returns odd or even"""
+@app.get("/")
+async def root():
+    return{"Welcome, we shall be checking whether your input integer is odd or even"}
+
 @app.get("/oddoreven/{num}")
 def oddoreven(num: int):
     """This code returns odd or even"""
