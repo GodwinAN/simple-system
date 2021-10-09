@@ -9,7 +9,7 @@ In order to ensure continuous integration and delpoyment, we used git hub action
 
 ii) Two cloud platforms were used to deploy the microservice;
 
-AWS App runner [link](https://2awu4srmey.us-east-2.awsapprunner.com/oddoreven)
+AWS App runner [link](https://2awu4srmey.us-east-2.awsapprunner.com/)
 
 AWS EC2 integrated to cloud 9
 
