@@ -5,7 +5,7 @@ This is a simple micro service that takes in an integer and tells the user wheth
 
 i) Continuous integration (CI) and continuous deployment (CD)
 
-In order to ensure continuous integration and delpoyment, we used git hub actions to automatically run all the service actions and trigger a continuous integration of the service whenever the code changes and deployment whenever the cloud based delivery of the service is triggered. A fast API was also built to facilitate CI/CD. 
+In order to ensure continuous integration and delpoyment, we used git hub actions to automatically run all the service actions and trigger a continuous integration of the service whenever the code changes and facilitate delivery for deployment whenever the cloud based service is triggered. A fast API was also built to facilitate CI/CD. 
 
 ii) Two cloud platforms were used to deploy the microservice;
 
