@@ -1,7 +1,13 @@
-# simple-system
-Building a simple system (Is odd or even?)
+# MICROSERVICE THAT RETURNS A JSON PAYLOAD OF WHETHER AN INTEGER IS ODD OR EVEN
 
-This is a simple micro service that takes in an integer and tells the user whether it is an odd or even integer.
+1) Objectives
+i) Create a Microservice that returns a JSON payload and performs a Data Engineering related task
+ii) Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
+iii) Configure Build Server to Deploy Changes on build (Continuous Delivery)
+iv) Create realistic API (reference here: Data Engineering: Chapter 5 aws chapter for pragmatic ai.)
+
+
+2) Process
 
 i) Continuous integration (CI) and continuous deployment (CD)
 
