@@ -1,9 +1,13 @@
 # MICROSERVICE THAT RETURNS A JSON PAYLOAD OF WHETHER AN INTEGER IS ODD OR EVEN
 
 1) Objectives
+
 i) Create a Microservice that returns a JSON payload and performs a Data Engineering related task
+
 ii) Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
+
 iii) Configure Build Server to Deploy Changes on build (Continuous Delivery)
+
 iv) Create realistic API (reference here: Data Engineering: Chapter 5 aws chapter for pragmatic ai.)
 
 
